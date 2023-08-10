@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+
+    <title>day-9</title>
+  </head>
+  <body>
+    <div class="container p-5">
+      <div class="gap-5">
+        <form id="form" class="form-control w-75">
+          <h3>New Todo</h3>
+          <input
+            class="form-control mt-3 input-name"
+            placeholder="Name"
+            type="text"
+          />
+          <input
+            class="form-control mt-3 input-date"
+            placeholder="Created"
+            type="text"
+          />
+          <button class="btn btn-primary form-control" type="submit">
+            Add Todo
+          </button>
+        </form>
+
+       
+        <div class="mt-5 right-side w-100">
+          <div class="cards"></div>
+        </div>
+      </div>
+    </div>
+
+    <script src="./main.js"></script>
+  </body>
+</html>
